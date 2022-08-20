@@ -283,6 +283,30 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+/* modal window form */
+.modal .form {
+  padding: 40px;
+}
+.form-title {
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: #212121;
+}
+.bth-modal-send {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: var(--color-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
 /*-------------- Features---------- */
 
 .features-list {
@@ -516,6 +540,7 @@ ul {
 }
 .social {
   margin-left: 70px;
+  margin-right: 93px;
 }
 .social-list {
   display: flex;
@@ -541,6 +566,38 @@ ul {
 .social-link:hover,
 .social-link:hover {
   background-color: var(--color-accent);
+}
+/*  footer-form */
+.footer-form {
+}
+.footer-form-subtitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: var(--primary-text-size);
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.btn-sign {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-sign {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  padding-left: 28px;
+  font-size: var(--secondary-text-size);
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 /*----------------------- ПОРТФОЛІО------------------------ */
 
