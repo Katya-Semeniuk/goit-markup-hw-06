@@ -330,9 +330,10 @@ ul {
 .form {
   padding-left: 40px;
   padding-right: 40px;
-  width: 448px;
 }
 .form-field {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 10px;
 }
 .comment-field {
